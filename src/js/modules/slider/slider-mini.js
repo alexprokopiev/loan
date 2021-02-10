@@ -19,7 +19,6 @@ export default class MiniSlider extends Slider {
     }
 
     if (this.animate) {
-      console.log("hello world");
       this.slides[0].querySelector(".card__title").style.opacity = "1";
       this.slides[0].querySelector(".card__controls-arrow").style.opacity = "1";
     }
